@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "decentfreelook",
+	"version": "${version}",
+	"name": "DecentFreelook",
+	"description": "A decent freelook mod for Fabric.",
+	"authors": [
+		"BloodRed"
+	],
+	"contact": {
+	},
+	"license": "MIT",
+	"icon": "assets/decentfreelook/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"me.bloodred.dfl.DecentFreelookClient"
+		]
+	},
+	"mixins": [
+		{
+			"config": "decentfreelook.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.2",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "me.bloodred.dfl.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"CameraMixin",
+		"EntityMixin",
+		"MinecraftMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
