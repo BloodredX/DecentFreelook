@@ -1,34 +1,15 @@
-# DecentFreelook
+# DecentFreelook (Source Export)
 
-### Cinematic Third-Person Camera Control
+This directory contains the cleaned source code for DecentFreelook, a Fabric mod.
 
-DecentFreelook is a specialized Fabric mod that enhances the Minecraft player experience by providing a flexible and intuitive "freelook" system. By utilizing a dedicated keybinding, the mod allows players to freely rotate their camera in a third-person orbit to observe their character and surroundings without changing the direction the player is actually facing or moving. 
+## 🛡️ Transparency & Safety
+This export is provided for transparency. The code has been processed to remove comments for a clean view, allowing users to verify that the mod performs only its intended functions and contains no malicious code.
 
-It features an intelligent control scheme that supports both "hold-to-view" and "toggle" modes, automatically switching the camera perspective to third-person upon activation and seamlessly reverting to the original view once deactivated. This provides a smooth, cinematic way to maintain situational awareness or admire character aesthetics without interrupting gameplay flow.
+## 🤝 Contributing
+Please note that this repository is **not open for contributions**. Pull requests will not be reviewed or merged.
 
-## ✨ Features
+## 🐛 Bug Reports
+If you encounter a technical issue or a bug while using the mod, please **open an issue** with a detailed description of the problem and steps to reproduce it. 
 
-*   **True Orbiting Camera:** Rotate around your character in a full 360-degree sphere.
-*   **Dual-Mode Activation:** 
-    *   **Hold:** Press and hold the key to look around; release to snap back instantly.
-    *   **Toggle:** A quick tap toggles the freelook mode on or off.
-*   **Perspective Memory:** Automatically switches to Third-Person (Back) when activated and returns to your previous perspective (including First-Person) when finished.
-*   **Zero Interference:** Your character continues moving in their original direction while you look around.
-
-## 🎮 Controls
-
-*   **F6 (Default):** Freelook Key.
-    *   **Tap:** Toggle Freelook.
-    *   **Hold (>250ms):** Hold-to-peek.
-*   **F5:** Pressing the vanilla perspective toggle while in Freelook will safely deactivate it.
-
-## 🛠️ Installation
-
-1.  Ensure you have the [Fabric Loader](https://fabricmc.net/) installed.
-2.  Download the latest `decentfreelook.jar` from the releases page.
-3.  Place the jar file into your Minecraft `mods` folder.
-4.  (Optional) Install the [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api) for maximum compatibility.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## ⚖️ License
+This project is licensed under the CC0 1.0 Universal License - see the [LICENSE](LICENSE) file for details.
