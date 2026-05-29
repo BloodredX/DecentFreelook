@@ -26,7 +26,6 @@ public class FreelookManager {
         long currentTime = System.currentTimeMillis();
         
         if (isPressed && !lastPressedState) {
-            
             if (!freelookEnabled) {
                 startFreelook();
                 pressTime = currentTime;
@@ -34,9 +33,8 @@ public class FreelookManager {
                 stopFreelook();
             }
         } else if (!isPressed && lastPressedState) {
-            
             if (freelookEnabled && !toggleMode) {
-                if (currentTime - pressTime > 250) { 
+                if (currentTime - pressTime > 250) {
                     stopFreelook();
                 } else {
                     toggleMode = true;
@@ -59,7 +57,6 @@ public class FreelookManager {
         cameraPitch = mc.player.getXRot();
         
         originalPerspective = mc.options.getCameraType();
-        
         
         if (originalPerspective == CameraType.FIRST_PERSON) {
             mc.options.setCameraType(CameraType.THIRD_PERSON_BACK);

@@ -18,13 +18,8 @@ public abstract class MinecraftMixin {
     private void onHandleKeybinds(CallbackInfo ci) {
         FreelookManager manager = FreelookManager.getInstance();
         if (manager.isFreelookEnabled()) {
-            
             while (this.options.keyTogglePerspective.consumeClick()) {
                 manager.stopFreelook();
-                
-                
-                
-                
             }
         }
     }
